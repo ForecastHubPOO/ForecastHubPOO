@@ -9,7 +9,8 @@
         <dependency>
             <groupId>io.github.cdimascio</groupId>
             <artifactId>dotenv-java</artifactId>
-            <version>3.0.0</version>
+            <version>3.0.1</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
     <properties>
