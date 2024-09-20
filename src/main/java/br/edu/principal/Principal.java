@@ -4,15 +4,19 @@
  */
 package br.edu.principal;
 
-import io.github.cdimascio.dotenv.Dotenv;
+import br.edu.api.API;
+import java.io.IOException;
+import java.net.ProtocolException;
+import org.json.JSONObject;
 
 /**
  *
  * @author levis
  */
 public class Principal {
-    public static void main(String[] args) {
-        Dotenv dotenv = Dotenv.load();
-        String apiKey = dotenv.get("API_KEY");
+    public static void main(String[] args) throws ProtocolException, IOException {
+        API api = new API();
+        JSONObject data = api.getWeather("Fortaleza");
+        System.out.println(data.get("latitude"));
     }
 }
