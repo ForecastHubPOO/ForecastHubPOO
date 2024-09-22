@@ -1,5 +1,9 @@
+br\edu\api\API.class
+br\edu\principal\SecondaryController.class
+br\edu\principal\PrimaryController.class
 module-info.class
-com\mycompany\forecasthub\SecondaryController.class
 com\mycompany\forecasthub\PrimaryController.class
 com\mycompany\api\API.class
+com\mycompany\forecasthub\SecondaryController.class
 com\mycompany\forecasthub\App.class
+br\edu\principal\App.class
