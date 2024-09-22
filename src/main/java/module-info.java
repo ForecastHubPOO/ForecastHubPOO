@@ -1,9 +1,9 @@
-module com.mycompany.ForecastHUB {
+module com.mycompany.forecasthub {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens br.edu.principal to javafx.fxml;
-    exports br.edu.principal;
+    opens com.mycompany.forecasthub to javafx.fxml;
+    exports com.mycompany.forecasthub;
     requires io.github.cdimascio.dotenv.java;
     requires org.json;
 }

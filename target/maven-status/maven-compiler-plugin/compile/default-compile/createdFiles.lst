@@ -1,0 +1,5 @@
+module-info.class
+com\mycompany\forecasthub\SecondaryController.class
+com\mycompany\forecasthub\PrimaryController.class
+com\mycompany\api\API.class
+com\mycompany\forecasthub\App.class
