@@ -1,9 +1,5 @@
-br\edu\api\API.class
-br\edu\principal\SecondaryController.class
-br\edu\principal\PrimaryController.class
 module-info.class
 com\mycompany\api\API.class
 com\mycompany\forecasthub\App.class
 com\mycompany\forecasthub\MudarParaTelaDePesquisa.class
-br\edu\principal\App.class
 com\mycompany\forecasthub\MudarParaTelaDePrevisao.class
