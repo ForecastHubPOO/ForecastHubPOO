@@ -8,9 +8,9 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="749.0" prefWidth="516.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="522.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="522.0">
+      <MenuBar layoutX="-203.0" layoutY="68.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
@@ -29,11 +29,11 @@
           </Menu>
         </menus>
       </MenuBar>
-      <ImageView fitHeight="722.0" fitWidth="522.0" layoutY="27.0">
+      <ImageView fitHeight="722.0" fitWidth="523.0" layoutY="46.0">
          <image>
             <Image url="@../../../../../../icons/TelaDePesquisa.jpg" />
          </image>
       </ImageView>
-      <TextField layoutX="126.0" layoutY="310.0" prefHeight="25.0" prefWidth="277.0" />
+      <TextField layoutX="126.0" layoutY="328.0" prefHeight="25.0" prefWidth="277.0" />
    </children>
 </AnchorPane>

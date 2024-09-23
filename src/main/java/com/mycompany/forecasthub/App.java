@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import javafx.scene.image.Image;
 
 /**
  * JavaFX App
@@ -19,10 +20,14 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("TelaInicial"));
         
+        //stage.setResizable(false);
+        Image icon = new Image("icons/IconeApp.png");
+        stage.getIcons().add(icon);
         stage.setResizable(false);
-        
         stage.setScene(scene);
         stage.show();
+        
+        
     }
 
     static void setRoot(String fxml) throws IOException {
