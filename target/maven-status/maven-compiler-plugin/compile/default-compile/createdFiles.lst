@@ -1,5 +1,5 @@
 module-info.class
 com\mycompany\api\API.class
+com\mycompany\forecasthub\ControllerTelaDePrevisao.class
+com\mycompany\forecasthub\ControllerTelaDePesquisa.class
 com\mycompany\forecasthub\App.class
-com\mycompany\forecasthub\MudarParaTelaDePesquisa.class
-com\mycompany\forecasthub\MudarParaTelaDePrevisao.class

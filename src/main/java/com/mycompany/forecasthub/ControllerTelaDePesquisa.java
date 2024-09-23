@@ -5,11 +5,12 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 
-public class MudarParaTelaDePrevisao {
+public class ControllerTelaDePesquisa {
 
     
     @FXML
     private TextField myTextField;
+    
     
     String pesquisa;
     
@@ -20,4 +21,6 @@ public class MudarParaTelaDePrevisao {
         System.out.println(pesquisa);
         App.setRoot("TelaDePrevisao");
     }
+    
+    
 }

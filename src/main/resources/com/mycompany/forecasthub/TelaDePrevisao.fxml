@@ -9,79 +9,79 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="723.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.forecasthub.MudarParaTelaDePesquisa">
+<AnchorPane id="AnchorPane" prefHeight="748.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.forecasthub.ControllerTelaDePrevisao">
    <children>
-      <ImageView fitHeight="695.0" fitWidth="523.0" layoutX="-7.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="697.0" fitWidth="498.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../icons/TelaDePrevisao.jpg" />
+            <Image url="icons/TelaDePrevisao.png" />
          </image>
       </ImageView>
-      <Label layoutX="64.0" layoutY="388.0" prefHeight="25.0" prefWidth="43.0" text="00/00">
+      <Label layoutX="56.0" layoutY="401.0" prefHeight="25.0" prefWidth="43.0" style="-fx-font-style: italic;" text="x1" textFill="WHITE" fx:id="x1">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="64.0" layoutY="455.0" prefHeight="25.0" prefWidth="43.0" text="00/00">
+      <Label layoutX="56.0" layoutY="456.0" prefHeight="25.0" prefWidth="43.0" text="x2" textFill="WHITE" fx:id="x2">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="64.0" layoutY="517.0" prefHeight="25.0" prefWidth="43.0" text="00/00">
+      <Label layoutX="56.0" layoutY="530.0" prefHeight="25.0" prefWidth="43.0" text="x3" textFill="WHITE" fx:id="x3">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="64.0" layoutY="582.0" prefHeight="25.0" prefWidth="43.0" text="00/00">
+      <Label layoutX="56.0" layoutY="583.0" prefHeight="25.0" prefWidth="43.0" text="x4" textFill="WHITE" fx:id="x4">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="64.0" layoutY="648.0" prefHeight="25.0" prefWidth="43.0" text="00/00">
+      <Label layoutX="56.0" layoutY="649.0" prefHeight="25.0" prefWidth="43.0" text="x5" textFill="WHITE" fx:id="x5">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="185.0" layoutY="27.0" prefHeight="67.0" prefWidth="132.0" text="Cidade, país">
+      <Label fx:id="CP" layoutX="169.0" layoutY="69.0" prefHeight="67.0" prefWidth="154.0" style="-fx-font-style: italic;" text="CP" textFill="#fcfcfc">
          <font>
-            <Font size="23.0" />
+            <Font size="26.0" />
          </font>
       </Label>
-      <Label layoutX="204.0" layoutY="116.0" prefHeight="62.0" prefWidth="93.0" text="00°C">
+      <Label fx:id="celsius" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="101.0" layoutY="119.0" prefHeight="90.0" prefWidth="154.0" text="celsius" textAlignment="RIGHT" textFill="WHITE">
          <font>
-            <Font size="42.0" />
+            <Font size="52.0" />
          </font>
       </Label>
-      <Label layoutX="322.0" layoutY="184.0" prefHeight="25.0" prefWidth="43.0" text="00°C">
+      <Label fx:id="ST" layoutX="325.0" layoutY="203.0" prefHeight="32.0" prefWidth="27.0" style="-fx-font-style: italic;" text="ST" textFill="#2aabeb">
          <font>
-            <Font size="16.0" />
+            <Font size="19.0" />
          </font>
       </Label>
-      <Label layoutX="409.0" layoutY="376.0" prefHeight="25.0" prefWidth="53.0" text="00°/00°">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="409.0" layoutY="443.0" prefHeight="25.0" prefWidth="53.0" text="00°/00°">
+      <Label fx:id="y1" layoutX="409.0" layoutY="389.0" prefHeight="25.0" prefWidth="53.0" text="y1" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="409.0" layoutY="505.0" prefHeight="25.0" prefWidth="53.0" text="00°/00°">
+      <Label fx:id="y2" layoutX="409.0" layoutY="456.0" prefHeight="25.0" prefWidth="53.0" text="y2" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="409.0" layoutY="570.0" prefHeight="25.0" prefWidth="53.0" text="00°/00°">
+      <Label fx:id="y3" layoutX="409.0" layoutY="518.0" prefHeight="25.0" prefWidth="53.0" text="y3" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="409.0" layoutY="636.0" prefHeight="25.0" prefWidth="53.0" text="00°/00°">
+      <Label fx:id="y4" layoutX="409.0" layoutY="583.0" prefHeight="25.0" prefWidth="53.0" text="y4" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <MenuBar layoutX="-2.0" layoutY="3.0" prefHeight="25.0" prefWidth="507.0">
+      <Label fx:id="y5" layoutX="409.0" layoutY="649.0" prefHeight="25.0" prefWidth="53.0" text="y5" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="498.0">
         <menus>
           <Menu mnemonicParsing="false" text="Menu">
             <items>
@@ -91,5 +91,20 @@
           </Menu>
         </menus>
       </MenuBar>
+      <Label fx:id="D2" layoutX="61.0" layoutY="555.0" prefHeight="38.0" prefWidth="33.0" text="D2" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="D3" layoutX="61.0" layoutY="624.0" prefHeight="38.0" prefWidth="33.0" text="D3" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="D1" layoutX="61.0" layoutY="505.0" prefHeight="38.0" prefWidth="33.0" text="D1" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

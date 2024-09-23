@@ -11,25 +11,25 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="759.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.forecasthub.MudarParaTelaDePrevisao">
+<AnchorPane id="AnchorPane" prefHeight="748.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.forecasthub.ControllerTelaDePesquisa">
    <children>
-      <MenuBar layoutY="7.0">
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="498.0">
         <menus>
-          <Menu mnemonicParsing="false" text="Fechar">
+          <Menu mnemonicParsing="false" text="Menu">
             <items>
-              <MenuItem mnemonicParsing="false" text="Close" />
+              <MenuItem mnemonicParsing="false" text="Fechar" />
             </items>
           </Menu>
         </menus>
       </MenuBar>
-      <ImageView fitHeight="736.0" fitWidth="523.0" layoutY="32.0">
+      <ImageView fitHeight="697.0" fitWidth="498.0" layoutY="32.0">
          <image>
-            <Image url="@../../../../../../icons/TelaDePesquisa.jpg" />
+            <Image url="icons/TelaDePesquisa.jpg" />
          </image>
       </ImageView>
-      <TextField fx:id="myTextField" layoutX="106.0" layoutY="321.0" prefHeight="25.0" prefWidth="317.0" />
-      <Button layoutX="227.0" layoutY="372.0" mnemonicParsing="false" onAction="#mudarParaTelaDePrevisao" text="Continuar" />
-      <Label alignment="CENTER" layoutX="155.0" layoutY="400.0" prefHeight="129.0" prefWidth="214.0" style="-fx-font-style: italic; -fx-font-family: Times New Roman;" text="Digite uma cidade" textFill="#80d9ff" textOverrun="WORD_ELLIPSIS">
+      <TextField fx:id="myTextField" layoutX="91.0" layoutY="307.0" prefHeight="25.0" prefWidth="325.0" />
+      <Button layoutX="219.0" layoutY="368.0" mnemonicParsing="false" onAction="#mudarParaTelaDePrevisao" text="Continuar" />
+      <Label alignment="CENTER" layoutX="147.0" layoutY="393.0" prefHeight="129.0" prefWidth="214.0" style="-fx-font-style: italic; -fx-font-family: Times New Roman;" text="Digite uma cidade" textFill="#80d9ff" textOverrun="WORD_ELLIPSIS">
          <font>
             <Font size="25.0" />
          </font>
