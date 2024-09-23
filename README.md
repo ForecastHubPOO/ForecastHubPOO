@@ -16,4 +16,10 @@
 - [Pedro Henrique Alves Barbosa](https://github.com/PedroBarbosaIF):
   Programador front-end e responsável pelo diagrama UML.
 
-  
+  # Linguagem:
+  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+   # Toolboxes utilizadas:
+   ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=Git)
+   ![Github](https://img.shields.io/badge/-Github-black?style=flat-square&logo=Github)
+   ![VS Code](https://img.shields.io/badge/-VS%20Code-black?style=flat-square&logo=visual-studio-code)
