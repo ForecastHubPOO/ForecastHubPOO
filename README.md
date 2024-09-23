@@ -6,14 +6,14 @@
  
 # Membros da Equipe:
 - [Ana Lívia Cândido Carneiro](https://github.com/hellgby):
-  CEO da empresa, organizadora dos cards no Trello, feitora dos slides e escritora do README.md da empresa.
+  CEO da empresa, organizadora dos cards no Trello, responsável pelos slides e escritora do README.md da empresa.
 - [Brenda Mônica Gonzaga de Andrade Nunes](https://github.com/brwndag):
   Designer e programadora front-end.
 - [Francisco Levi Barros da Cunha](https://github.com/spyvanilla):
-  Programador back-end e feitor do diagrama UML.
+  Programador back-end e responsável pelo diagrama UML.
 - [Gustavo Fontenele Coêlho](https://github.com/fontenelegustavo):
   Designer da logo da empresa e escritor do README.md do projeto.
 - [Pedro Henrique Alves Barbosa](https://github.com/PedroBarbosaIF):
-  Programador front-end e feitor do diagrama UML.
+  Programador front-end e responsável pelo diagrama UML.
 
   
