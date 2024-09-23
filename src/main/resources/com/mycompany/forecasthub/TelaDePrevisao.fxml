@@ -9,11 +9,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="722.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="723.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.forecasthub.MudarParaTelaDePesquisa">
    <children>
-      <ImageView fitHeight="722.0" fitWidth="523.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="695.0" fitWidth="523.0" layoutX="-7.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="icons/TelaDePrevisao.jpg" />
+            <Image url="@../../../../../../icons/TelaDePrevisao.jpg" />
          </image>
       </ImageView>
       <Label layoutX="64.0" layoutY="388.0" prefHeight="25.0" prefWidth="43.0" text="00/00">
@@ -41,7 +41,7 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="190.0" layoutY="52.0" prefHeight="67.0" prefWidth="132.0" text="Cidade, país">
+      <Label layoutX="185.0" layoutY="27.0" prefHeight="67.0" prefWidth="132.0" text="Cidade, país">
          <font>
             <Font size="23.0" />
          </font>
@@ -81,21 +81,12 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="508.0">
+      <MenuBar layoutX="-2.0" layoutY="3.0" prefHeight="25.0" prefWidth="507.0">
         <menus>
-          <Menu mnemonicParsing="false" text="File">
+          <Menu mnemonicParsing="false" text="Menu">
             <items>
-              <MenuItem mnemonicParsing="false" text="Close" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Edit">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Delete" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Help">
-            <items>
-              <MenuItem mnemonicParsing="false" text="About" />
+              <MenuItem mnemonicParsing="false" text="Fechar" />
+                  <MenuItem mnemonicParsing="false" onAction="#mudarParaTelaDePesquisa" text="Voltar" />
             </items>
           </Menu>
         </menus>

@@ -5,11 +5,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.forecasthub.MudarParaTelaDePesquisa">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="717.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.forecasthub.MudarParaTelaDePesquisa">
    <children>
-      <ImageView fitHeight="529.0" fitWidth="523.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="729.0" fitWidth="523.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="icons/Logo.png" />
+            <Image url="icons/Adaptação.png" />
          </image></ImageView>
       <Button layoutX="233.0" layoutY="673.0" mnemonicParsing="false" onAction="#mudarParaTelaDePesquisa" text="APERTE" />
    </children>
