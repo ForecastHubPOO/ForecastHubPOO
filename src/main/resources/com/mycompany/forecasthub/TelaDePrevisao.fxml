@@ -100,7 +100,7 @@
             <Font size="52.0" />
          </font>
       </Label>
-      <Label layoutX="329.0" layoutY="197.0" prefHeight="30.0" prefWidth="16.0" text="ST" textFill="#5bc0e8">
+      <Label fx:id="ST" layoutX="329.0" layoutY="197.0" prefHeight="30.0" prefWidth="16.0" text="ST" textFill="#5bc0e8">
          <font>
             <Font size="15.0" />
          </font>
