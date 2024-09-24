@@ -14,11 +14,11 @@ import org.json.JSONObject;
 
 public class ControllerTelaDePrevisao {
     
-       @FXML
-    public Label CP;
+    @FXML
+    private Label CP;
     
     @FXML
-    public Label x1;
+    private Label x1;
     
     @FXML
     private Label x2;
@@ -87,6 +87,7 @@ public class ControllerTelaDePrevisao {
         
         CP.setText(data.getString("resolvedAddress"));
         celsius.setText(Integer.toString(convertTemp(data.getJSONArray("days").getJSONObject(1).getFloat("temp"))));
+        ST.setText(Integer.toString(convertTemp(data.getJSONArray("days").getJSONObject(1).getFloat("feelslike"))));
         
         Date convertedCurrentDate = parser.parse(data.getJSONArray("days").getJSONObject(2).getString("datetime"));
         Calendar c = Calendar.getInstance();
