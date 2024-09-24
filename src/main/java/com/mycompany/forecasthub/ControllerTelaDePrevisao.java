@@ -7,12 +7,23 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class ControllerTelaDePrevisao {
+    
+    @FXML
+    private Parent root; 
+    private Scene scene;
+    private Stage stage;
     
     @FXML
     private Label CP;
@@ -64,8 +75,14 @@ public class ControllerTelaDePrevisao {
     
     
     @FXML
-    private void mudarParaTelaDePesquisa() throws IOException {
-        App.setRoot("TelaDePesquisa");
+    private void mudarParaTelaDePesquisa(ActionEvent event) throws IOException {
+                FXMLLoader loader = new FXMLLoader();
+                loader.setLocation(getClass().getResource("TelaDePesquisa.fxml"));
+                root = loader.load();
+                stage = (Stage)((Node)event.getSource()).getScene().getWindow();  
+                scene = new Scene(root);
+                stage.setScene(scene);
+                stage.show();
     }
 
     public int convertTemp(float temp) {

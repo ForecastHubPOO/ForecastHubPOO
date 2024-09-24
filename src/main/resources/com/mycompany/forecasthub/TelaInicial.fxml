@@ -11,6 +11,6 @@
          <image>
             <Image url="icons/TelaInicial.png" />
          </image></ImageView>
-      <Button layoutX="221.0" layoutY="643.0" mnemonicParsing="false" onAction="#mudarParaTelaDePesquisa" text="APERTE" />
+      <Button layoutX="221.0" layoutY="643.0" mnemonicParsing="false" onAction="#mudarParaTelaDePesquisa" text="Avançar" />
    </children>
 </AnchorPane>
