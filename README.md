@@ -5,8 +5,9 @@
  </h2>
 
 # O que é?
- O projeto proposto pela ForecastHub é uma API voltada à realização da previsão do tempo, podendo ser esta a do local em que você se encontra ou ao qual você deseja ir, da forma mais simples, segura e precisa possível.
- 
+Para entendermos o projeto que foi desenvolvido pela ForecastHub, precisamos primeiro compreender o que é uma API. A sigla API deriva da expressão inglesa *Application Programming Interface* (ou Interface de Programação de Aplicação). As APIs são um conjunto de normas, uma espécie de contrato, que permite a comunicação entre dois diferentes sistemas. Sendo assim, nós podemos, por exemplo, utilizar recursos e informações de outros sistemas.
+
+Já com isso em mente, o projeto elaborado pela ForecastHub foi uma API cuja principal função é mostrar a previsão mais precisa, segura e simples possível do tempo atmosférico.
 # Membros da Equipe:
 - [Ana Lívia Cândido Carneiro](https://github.com/hellgby):
   CEO da empresa, organizadora dos cards no Trello, responsável pelos slides e escritora do README.md da empresa.
