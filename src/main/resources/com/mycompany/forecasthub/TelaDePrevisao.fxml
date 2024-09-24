@@ -16,94 +16,93 @@
             <Image url="icons/TelaDePrevisao.png" />
          </image>
       </ImageView>
-      <Label layoutX="56.0" layoutY="401.0" prefHeight="25.0" prefWidth="43.0" style="-fx-font-style: italic;" text="x1" textFill="WHITE" fx:id="x1">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="56.0" layoutY="456.0" prefHeight="25.0" prefWidth="43.0" text="x2" textFill="WHITE" fx:id="x2">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="56.0" layoutY="530.0" prefHeight="25.0" prefWidth="43.0" text="x3" textFill="WHITE" fx:id="x3">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="56.0" layoutY="583.0" prefHeight="25.0" prefWidth="43.0" text="x4" textFill="WHITE" fx:id="x4">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="56.0" layoutY="649.0" prefHeight="25.0" prefWidth="43.0" text="x5" textFill="WHITE" fx:id="x5">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label fx:id="CP" layoutX="169.0" layoutY="69.0" prefHeight="67.0" prefWidth="154.0" style="-fx-font-style: italic;" text="CP" textFill="#fcfcfc">
-         <font>
-            <Font size="26.0" />
-         </font>
-      </Label>
-      <Label fx:id="celsius" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="101.0" layoutY="119.0" prefHeight="90.0" prefWidth="154.0" text="celsius" textAlignment="RIGHT" textFill="WHITE">
-         <font>
-            <Font size="52.0" />
-         </font>
-      </Label>
-      <Label fx:id="ST" layoutX="325.0" layoutY="203.0" prefHeight="32.0" prefWidth="27.0" style="-fx-font-style: italic;" text="ST" textFill="#2aabeb">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </Label>
-      <Label fx:id="y1" layoutX="409.0" layoutY="389.0" prefHeight="25.0" prefWidth="53.0" text="y1" textFill="WHITE">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label fx:id="y2" layoutX="409.0" layoutY="456.0" prefHeight="25.0" prefWidth="53.0" text="y2" textFill="WHITE">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label fx:id="y3" layoutX="409.0" layoutY="518.0" prefHeight="25.0" prefWidth="53.0" text="y3" textFill="WHITE">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label fx:id="y4" layoutX="409.0" layoutY="583.0" prefHeight="25.0" prefWidth="53.0" text="y4" textFill="WHITE">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label fx:id="y5" layoutX="409.0" layoutY="649.0" prefHeight="25.0" prefWidth="53.0" text="y5" textFill="WHITE">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="498.0">
         <menus>
           <Menu mnemonicParsing="false" text="Menu">
             <items>
-              <MenuItem mnemonicParsing="false" text="Fechar" />
                   <MenuItem mnemonicParsing="false" onAction="#mudarParaTelaDePesquisa" text="Voltar" />
             </items>
           </Menu>
         </menus>
       </MenuBar>
-      <Label fx:id="D2" layoutX="61.0" layoutY="555.0" prefHeight="38.0" prefWidth="33.0" text="D2" textFill="WHITE">
+      <Label layoutX="66.0" layoutY="397.0" prefHeight="27.0" prefWidth="53.0" text="x1" textFill="WHITE" fx:id="x1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="CP" alignment="CENTER" layoutX="225.0" layoutY="77.0" text="CP" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="D1" alignment="CENTER" layoutX="52.0" layoutY="490.0" prefHeight="30.0" prefWidth="53.0" text="D1" textFill="WHITE">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label fx:id="D3" layoutX="61.0" layoutY="624.0" prefHeight="38.0" prefWidth="33.0" text="D3" textFill="WHITE">
+      <Label fx:id="D2" alignment="CENTER" layoutX="52.0" layoutY="554.0" prefHeight="30.0" prefWidth="53.0" text="D2" textFill="WHITE">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label fx:id="D1" layoutX="61.0" layoutY="505.0" prefHeight="38.0" prefWidth="33.0" text="D1" textFill="WHITE">
+      <Label fx:id="D3" alignment="CENTER" layoutX="52.0" layoutY="621.0" prefHeight="30.0" prefWidth="53.0" text="D3" textFill="WHITE">
          <font>
             <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="454.0" prefHeight="27.0" prefWidth="53.0" text="x2" textFill="WHITE" fx:id="x2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="520.0" prefHeight="27.0" prefWidth="53.0" text="x3" textFill="WHITE" fx:id="x3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="584.0" prefHeight="27.0" prefWidth="53.0" text="x4" textFill="WHITE" fx:id="x4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="658.0" prefHeight="27.0" prefWidth="53.0" text="x5" textFill="WHITE" fx:id="x5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="y1" layoutX="388.0" layoutY="397.0" prefHeight="27.0" prefWidth="53.0" text="y1" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="y2" layoutX="388.0" layoutY="454.0" prefHeight="27.0" prefWidth="53.0" text="y2" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="y3" layoutX="388.0" layoutY="520.0" prefHeight="27.0" prefWidth="53.0" text="y3" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="y4" layoutX="388.0" layoutY="584.0" prefHeight="27.0" prefWidth="53.0" text="y4" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="y5" layoutX="388.0" layoutY="645.0" prefHeight="27.0" prefWidth="53.0" text="y5" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="celsius" alignment="CENTER_RIGHT" layoutX="42.0" layoutY="130.0" text="celsius00" textFill="WHITE">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="197.0" prefHeight="30.0" prefWidth="16.0" text="ST" textFill="#5bc0e8">
+         <font>
+            <Font size="15.0" />
          </font>
       </Label>
    </children>

@@ -6,13 +6,8 @@ import javafx.scene.control.Label;
 import org.json.JSONObject;
 
 public class ControllerTelaDePrevisao {
-
-    @FXML
-    private void mudarParaTelaDePesquisa() throws IOException {
-        App.setRoot("TelaDePesquisa");
-    }
     
-    @FXML
+       @FXML
     public Label CP;
     
     @FXML
@@ -60,7 +55,17 @@ public class ControllerTelaDePrevisao {
     @FXML
     private Label ST;
     
-    public void displayWeather(JSONObject data) {
-        CP.setText(data.getString("resolvedAddress"));
+    
+    @FXML
+    private void mudarParaTelaDePesquisa() throws IOException {
+        
+        App.setRoot("TelaDePesquisa");
     }
+    
+    public void displayWeather(JSONObject data) {
+        System.out.println(data.getString("address"));
+        CP.setText(data.getString("address"));
+    }
+    
+    
 }
