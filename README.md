@@ -3,6 +3,9 @@
 <h2 align="center">
  <img src="https://github.com/ForecastHubPOO/.github/blob/802fa69a87b0fffc7ce5e60dd7c69ce96dee71d3/profile/imgs/iconepngagain" width = "500px" alt="ForecastHUB"><br>
  </h2>
+
+# O que é?
+ O projeto proposto pela ForecastHub é uma API voltada à realização da previsão do tempo, podendo ser esta a do local em que você se encontra ou ao qual você deseja ir, da forma mais simples, segura e precisa possível.
  
 # Membros da Equipe:
 - [Ana Lívia Cândido Carneiro](https://github.com/hellgby):
@@ -29,9 +32,11 @@
    ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
    ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
    ![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+   ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white)
    ![NetBeans IDE](https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
    ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
    ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
    ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
    ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
    ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
+
