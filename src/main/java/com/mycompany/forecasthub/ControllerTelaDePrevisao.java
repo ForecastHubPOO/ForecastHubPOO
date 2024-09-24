@@ -3,6 +3,7 @@ package com.mycompany.forecasthub;
 import java.io.IOException;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import org.json.JSONObject;
 
 public class ControllerTelaDePrevisao {
 
@@ -10,6 +11,9 @@ public class ControllerTelaDePrevisao {
     private void mudarParaTelaDePesquisa() throws IOException {
         App.setRoot("TelaDePesquisa");
     }
+    
+    @FXML
+    public Label CP;
     
     @FXML
     public Label x1;
@@ -55,4 +59,8 @@ public class ControllerTelaDePrevisao {
         
     @FXML
     private Label ST;
+    
+    public void displayWeather(JSONObject data) {
+        CP.setText(data.getString("resolvedAddress"));
+    }
 }

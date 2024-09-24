@@ -21,11 +21,11 @@ import org.json.JSONObject;
  * @author Aluno
  */
 public class API {
-    private Dotenv dotenv = Dotenv.load();
-    private String apiKey = dotenv.get("API_KEY");
-    private String urlString = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/";
+    private static Dotenv dotenv = Dotenv.load();
+    private static String apiKey = dotenv.get("API_KEY");
+    private static String urlString = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/";
     
-    public JSONObject getWeather(String location) {
+    public static JSONObject getWeather(String location) {
         JSONObject data = null;
         try {
             URL url = new URL(urlString + location + "?" + "key=" + apiKey);
