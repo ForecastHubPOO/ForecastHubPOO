@@ -8,6 +8,9 @@ import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -27,8 +30,16 @@ public class API {
     
     public static JSONObject getWeather(String location) {
         JSONObject data = null;
+        Calendar previousTime = Calendar.getInstance();
+        previousTime.setTime(new Date());
+        previousTime.add(Calendar.DATE, -1);
+        
+        Calendar nextTime = Calendar.getInstance();
+        nextTime.setTime(new Date());
+        nextTime.add(Calendar.DATE, 3);
+
         try {
-            URL url = new URL(urlString + location + "?" + "key=" + apiKey);
+            URL url = new URL(urlString + location + "/" + new SimpleDateFormat("yyyy-MM-dd").format(previousTime.getTime()) + "/" + new SimpleDateFormat("yyyy-MM-dd").format(nextTime.getTime()) + "?" + "key=" + apiKey);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
             conn.connect();
